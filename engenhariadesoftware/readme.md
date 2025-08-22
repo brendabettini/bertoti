@@ -17,7 +17,7 @@
 
 ----- Atividade 4. UML
 
-- Foto na pasta do repositório.
+![imagem uml da atividade](https://github.com/brendabettini/bertoti/blob/main/media/UML%20-%20Atividade%203.png)
 
 ----- Atividade 5. Código JAVA do UML:
 
