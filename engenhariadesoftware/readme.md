@@ -1,18 +1,31 @@
 ----- Atividade 1. Comentar com suas palavras o primeiro trecho do livro Software Engineering at Google, Oreilly. 
 
-- O livro explica que "engenharia de software" vai além de programar, envolvendo práticas mais rigorosas para criar sistemas confiáveis. Ele compara com outras engenharias, dizendo que o software precisa de mais atenção, já que pode afetar bastante a vida das pessoas.
+Programar e fazer engenharia de software não são a mesma atividade. No uso cotidiano, os termos se confundem, mas na prática apontam para responsabilidades distintas. Programar é o ato de produzir código para resolver um problema específico, geralmente com foco no curto prazo. Engenharia de software, por sua vez, pressupõe aplicar princípios e conhecimento técnico para construir sistemas reais, organizados e confiáveis, em um nível comparável ao de engenharias tradicionais como a civil ou a mecânica.
+
+A diferença é que, nessas engenharias clássicas, normas e métodos foram consolidados porque erros podem causar danos físicos. Em software isso nem sempre existiu com o mesmo rigor. Só que, como hoje programas controlam desde bancos até hospitais, o desenvolvimento precisa ser conduzido com processos mais sólidos, critérios de qualidade e preocupação com segurança e confiabilidade ao longo do tempo.
  
 ----- Atividade 2. Comentar com suas palavras o segundo trecho do livro Software Engineering at Google, Oreilly.
 
-- O livro fala que engenharia de software não é só escrever código, mas também manter e evoluir o software ao longo do tempo. Ele destaca três pontos: como o código muda, como a empresa cresce e como tomar decisões importantes.
+“Engenharia de software” vai muito além de escrever funções. Ela abrange o conjunto de práticas, processos e ferramentas que mantêm um sistema útil e saudável durante todo o seu ciclo de vida. Em outras palavras, é a programação pensada ao longo do tempo: da concepção inicial à manutenção, evolução contínua e, quando necessário, a desativação controlada.
+
+Três fundamentos devem orientar as decisões técnicas:
+
+Tempo e mudança: aceite que o software irá evoluir; projete para facilitar alteração, correção e adaptação.
+
+Escala e crescimento: considere como equipe, dados e tráfego vão aumentar e o que isso exige de arquitetura e operações.
+
+Trade-offs e custos: toda decisão tem preço; compare alternativas olhando impactos presentes e futuros.
  
 ----- Atividade 3. Listar e explicar 3 exemplos de tradeoffs
 
-- Velocidade vs. Qualidade: Lançar rápido pode ter mais bugs, e focar só em qualidade pode atrasar o lançamento.
+1) Entrega rápida × Qualidade do código
+Pressões de prazo podem levar a pular testes, ignorar padrões e “dar um jeitinho” para lançar logo. Funciona no curto prazo, mas costuma gerar dívida técnica, dificultando manutenção e aumentando risco de falhas. A pergunta honesta é: o ganho imediato compensa o retrabalho e os bugs futuros?
 
-- Simplicidade vs. Funcionalidade: Fazer algo simples é mais fácil de manter, mas tem menos funcionalidades.
+2) Arquitetura sofisticada × Facilidade de manutenção
+Soluções mais complexas podem suportar cenários avançados e escalar melhor. Em contrapartida, multiplicam camadas e abstrações, elevando a curva de aprendizado e tornando mudanças triviais mais custosas. Vale ponderar se o benefício de longo prazo supera a complexidade extra no dia a dia.
 
-- Centralização vs. Descentralização: Centralizar facilita o controle, mas pode ser mais lento. Descentralizar dá agilidade, mas pode ficar desorganizado.
+3) Desempenho extremo × Legibilidade do código
+Algumas otimizações rendem milissegundos a menos, mas exigem técnicas obscuras ou código menos legível. No futuro, isso pode dificultar correções e evoluções. É preciso decidir quando a clareza e a manutenção pesam mais do que o ganho marginal de performance.
 
 
 ----- Atividade 4. UML
@@ -30,7 +43,7 @@
 
 ![imagem refrigerante](https://github.com/brendabettini/bertoti/blob/main/media/refrigerante1.png)
 
------ Atividade 6. Testes Automatizados: (foi utilizado o google e inteligência artificial como auxílio: https://www.devmedia.com.br/introducao-aos-testes-funcionais-automatizados-com-junit-e-selenium-webdriver/28037 ---https://docs.oracle.com/javase/8/docs/api/java/io/ByteArrayOutputStream.html)
+----- Atividade 6. Testes Automatizados: 
 
 ![imagem teste1](https://github.com/brendabettini/bertoti/blob/main/media/teste1.png)
 
