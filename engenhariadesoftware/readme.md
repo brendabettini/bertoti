@@ -32,20 +32,4 @@ Algumas otimizações rendem milissegundos a menos, mas exigem técnicas obscura
 
 ![imagem uml da atividade](https://github.com/brendabettini/bertoti/blob/main/media/UML%20-%20Atividade%203.png)
 
------ Atividade 5. Código JAVA do UML:
-
-
-![imagem main](https://github.com/brendabettini/bertoti/blob/main/media/main1.png)
-
-![imagem hamburguer](https://github.com/brendabettini/bertoti/blob/main/media/hamburguer1.png)
-
-![imagem batata](https://github.com/brendabettini/bertoti/blob/main/media/batatafrita1.png)
-
-![imagem refrigerante](https://github.com/brendabettini/bertoti/blob/main/media/refrigerante1.png)
-
------ Atividade 6. Testes Automatizados: 
-
-![imagem teste1](https://github.com/brendabettini/bertoti/blob/main/media/teste1.png)
-
-![imagem teste2](https://github.com/brendabettini/bertoti/blob/main/media/teste2.png)
 
