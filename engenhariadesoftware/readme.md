@@ -30,6 +30,6 @@ Algumas otimizações rendem milissegundos a menos, mas exigem técnicas obscura
 
 ----- Atividade 4. UML
 
-![imagem uml da atividade]([https://github.com/brendabettini/bertoti/blob/main/media/UML%20-%20Atividade%203.png])
+![imagem uml da atividade](https://github.com/brendabettini/bertoti/blob/main/m%C3%ADdia/UML%20-%20Atividade%203.jpg)
 
 
