@@ -1,0 +1,4 @@
+com\thehecklers\sburrestdemo\Book.class
+com\thehecklers\sburrestdemo\RestApiDemoController.class
+com\thehecklers\sburrestdemo\BookRepository.class
+com\thehecklers\sburrestdemo\SburRestDemoApplication.class

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca REST</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .search-area {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 8px;
+            flex: 1;
+        }
+
+        button {
+            padding: 8px 14px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .btn-edit {
+            background-color: #ffc107;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>📚 Biblioteca REST</h1>
+
+    <form id="bookForm">
+        <input type="hidden" id="bookId">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <input type="text" id="autor" placeholder="Autor" required>
+        <button type="submit" class="btn-primary">Salvar</button>
+    </form>
+
+    <div class="search-area">
+        <input type="text" id="searchId" placeholder="Buscar por ID">
+        <button class="btn-secondary" onclick="searchById()">Buscar ID</button>
+
+        <input type="text" id="searchTitulo" placeholder="Filtrar por título">
+        <button class="btn-secondary" onclick="filterByTitulo()">Filtrar</button>
+
+        <button class="btn-secondary" onclick="loadBooks()">Limpar</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="bookTable">
+        </tbody>
+    </table>
+</div>
+
+<script>
+    const API_URL = "/books";
+
+    const form = document.getElementById("bookForm");
+    const bookTable = document.getElementById("bookTable");
+    const bookIdInput = document.getElementById("bookId");
+    const tituloInput = document.getElementById("titulo");
+    const autorInput = document.getElementById("autor");
+
+    document.addEventListener("DOMContentLoaded", loadBooks);
+
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const id = bookIdInput.value;
+        const book = {
+            titulo: tituloInput.value,
+            autor: autorInput.value
+        };
+
+        if (id) {
+            await fetch(`${API_URL}/${id}`, {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(book)
+            });
+        } else {
+            await fetch(API_URL, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(book)
+            });
+        }
+
+        form.reset();
+        bookIdInput.value = "";
+        loadBooks();
+    });
+
+    async function loadBooks() {
+        const response = await fetch(API_URL);
+        const books = await response.json();
+        renderBooks(books);
+    }
+
+    async function searchById() {
+        const id = document.getElementById("searchId").value;
+
+        if (!id) return;
+
+        const response = await fetch(`${API_URL}/${id}`);
+
+        if (response.status === 404) {
+            alert("Livro não encontrado");
+            return;
+        }
+
+        const book = await response.json();
+        renderBooks([book]);
+    }
+
+    async function filterByTitulo() {
+        const titulo = document.getElementById("searchTitulo").value.toLowerCase();
+
+        const response = await fetch(API_URL);
+        const books = await response.json();
+
+        const filtered = books.filter(book =>
+            book.titulo.toLowerCase().includes(titulo)
+        );
+
+        renderBooks(filtered);
+    }
+
+    function renderBooks(books) {
+        bookTable.innerHTML = "";
+
+        books.forEach(book => {
+            const row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td>${book.id}</td>
+                <td>${book.titulo}</td>
+                <td>${book.autor}</td>
+                <td>
+                    <button class="btn-edit" onclick="editBook('${book.id}', '${book.titulo}', '${book.autor}')">Editar</button>
+                    <button class="btn-danger" onclick="deleteBook('${book.id}')">Excluir</button>
+                </td>
+            `;
+
+            bookTable.appendChild(row);
+        });
+    }
+
+    function editBook(id, titulo, autor) {
+        bookIdInput.value = id;
+        tituloInput.value = titulo;
+        autorInput.value = autor;
+    }
+
+    async function deleteBook(id) {
+        if (!confirm("Deseja excluir este livro?")) return;
+
+        await fetch(`${API_URL}/${id}`, {
+            method: "DELETE"
+        });
+
+        loadBooks();
+    }
+</script>
+
+</body>
+</html>
