@@ -38,6 +38,131 @@ Além disso, também trabalho em outra empresa, onde utilizo desde ferramentas d
 
 ## Meus Projetos
 
+### Em 2025-1
+
+### Empresa Parceira: [IPEM - Instituto de Pesos e Medidas]()
+
+### Problema:
+O desafio consiste no desenvolvimento de um sistema web para controle e análise dos abastecimentos das viaturas do IPEM – Regional de São José dos Campos, substituindo o atual processo manual realizado por meio de pranchetas físicas mantidas nos veículos. Atualmente, os técnicos registram informações como quilometragem, litros abastecidos, valor pago e número da nota fiscal de forma manual, o que dificulta a consolidação mensal dos dados, a análise comparativa entre viaturas e o acompanhamento do consumo médio de combustível. A proposta do projeto é digitalizar esses registros, garantindo maior organização, rastreabilidade e confiabilidade das informações, além de permitir a geração de indicadores gerenciais que apoiem a tomada de decisão e facilitem a consolidação dos dados para posterior inserção no SGI.
+
+
+### Solução Entregue pela Equipe:
+FlowTrack — Plataforma de Controle de Abastecimento e Utilização de Viaturas. O FlowTrack permitirá o registro digital da utilização de viaturas, substituindo o controle manual realizado em pranchetas. A solução possibilita registrar abastecimentos, início e término de uso dos veículos, mantendo histórico completo de quilometragem, consumo e despesas. Além disso, contará com gerenciamento de cadastros, avisos de manutenção preventiva baseados em quilometragem e visualização de indicadores e relatórios consolidados, facilitando o acompanhamento da frota e a organização das informações para posterior inserção no SGI.
+
+[Repositório do Projeto ](https://github.com/LizardsDBA/API-2026-3)
+
+#### Tecnologias Utilizadas
+> - **Java**: Utilizado no desenvolvimento do backend, proporcionando flexibilidade e facilidade de manutenção na lógica do sistema.
+> - **JavaScript**: Ferramenta utilizada para o desenvolvimento da interface gráfica do usuário, permitindo uma criação rápida e simples da UI.
+> - **HTML**: Utilizado para design e prototipagem da interface, ajudando no planejamento do layout da aplicação.
+> - **Git e GitHub**: Essenciais para controle de versão e colaboração entre os membros da equipe, garantindo o gerenciamento eficiente do código.
+> - **Jira**: Ferramenta usada para gerenciar as tarefas do projeto e organizar o fluxo de trabalho da equipe.
+
+
+#### Contribuições Pessoais
+
+<details>
+  <summary>Atuei como Product Owner</summary>
+    Esse código cria uma interface gráfica simples para uma tela de login usando a biblioteca PySimpleGUI.
+    Define o tema visual da interface (LightGreen1) para determinar as cores e o estilo.
+    É montada uma estrutura que organiza os elementos visuais, como caixas de texto, campos de entrada, um botão, e uma opção para salvar o login.
+
+</details>
+
+<details>
+  <summary>Configuração da interface da tela de login</summary>
+    <img src="./assets/gui-login-api1.png" alt="Descrição da imagem">
+    Esse código cria uma interface gráfica simples para uma tela de login usando a biblioteca PySimpleGUI.
+    Define o tema visual da interface (LightGreen1) para determinar as cores e o estilo.
+    É montada uma estrutura que organiza os elementos visuais, como caixas de texto, campos de entrada, um botão, e uma opção para salvar o login.
+
+</details>
+
+<details>
+  <summary>Configuração da lógica da tela de login</summary>
+    <img src="./assets/logica-login-api1.png" alt="Descrição da imagem">
+    Esse código adiciona a lógica funcional à interface de login criada no tópico anterior. Ele fica em um loop contínuo, aguardando interações do usuário com a janela.
+</details>
+
+
+
+#### Hard Skills
+
+- **Python** : Sei fazer com autonomia
+- **Notion** : Sei fazer com autonomia
+
+
+#### Soft Skills
+
+**Comunicação**: Exercitei minhas habilidades de comunicação ao interagir frequentemente com a equipe, transmitindo a visão do cliente e alinhando expectativas. Mantive um diálogo aberto e constante com o cliente para entender suas necessidades e garantir que as funcionalidades desenvolvidas atendessem às suas expectativas.
+
+**Autodidatismo** : Demonstrei proatividade ao buscar e adquirir conhecimentos sobre tecnologias novas, como Spring Boot, que não tinha familiaridade anteriormente. 
+
+**Trabalho sob pressão**: Em momentos de baixa de recursos no time, assumi mais responsabilidades do que o habitual para garantir que o projeto fosse entregue dentro do prazo estabelecido. 
+
+
+### Em 2025-2
+
+### Empresa Parceira: [IPEM - Instituto de Pesos e Medidas]()
+
+### Problema:
+O desafio consiste no desenvolvimento de um sistema web para controle e análise dos abastecimentos das viaturas do IPEM – Regional de São José dos Campos, substituindo o atual processo manual realizado por meio de pranchetas físicas mantidas nos veículos. Atualmente, os técnicos registram informações como quilometragem, litros abastecidos, valor pago e número da nota fiscal de forma manual, o que dificulta a consolidação mensal dos dados, a análise comparativa entre viaturas e o acompanhamento do consumo médio de combustível. A proposta do projeto é digitalizar esses registros, garantindo maior organização, rastreabilidade e confiabilidade das informações, além de permitir a geração de indicadores gerenciais que apoiem a tomada de decisão e facilitem a consolidação dos dados para posterior inserção no SGI.
+
+
+### Solução Entregue pela Equipe:
+FlowTrack — Plataforma de Controle de Abastecimento e Utilização de Viaturas. O FlowTrack permitirá o registro digital da utilização de viaturas, substituindo o controle manual realizado em pranchetas. A solução possibilita registrar abastecimentos, início e término de uso dos veículos, mantendo histórico completo de quilometragem, consumo e despesas. Além disso, contará com gerenciamento de cadastros, avisos de manutenção preventiva baseados em quilometragem e visualização de indicadores e relatórios consolidados, facilitando o acompanhamento da frota e a organização das informações para posterior inserção no SGI.
+
+[Repositório do Projeto ](https://github.com/LizardsDBA/API-2026-3)
+
+#### Tecnologias Utilizadas
+> - **Java**: Utilizado no desenvolvimento do backend, proporcionando flexibilidade e facilidade de manutenção na lógica do sistema.
+> - **JavaScript**: Ferramenta utilizada para o desenvolvimento da interface gráfica do usuário, permitindo uma criação rápida e simples da UI.
+> - **HTML**: Utilizado para design e prototipagem da interface, ajudando no planejamento do layout da aplicação.
+> - **Git e GitHub**: Essenciais para controle de versão e colaboração entre os membros da equipe, garantindo o gerenciamento eficiente do código.
+> - **Jira**: Ferramenta usada para gerenciar as tarefas do projeto e organizar o fluxo de trabalho da equipe.
+
+
+#### Contribuições Pessoais
+
+<details>
+  <summary>Atuei como Product Owner</summary>
+    Esse código cria uma interface gráfica simples para uma tela de login usando a biblioteca PySimpleGUI.
+    Define o tema visual da interface (LightGreen1) para determinar as cores e o estilo.
+    É montada uma estrutura que organiza os elementos visuais, como caixas de texto, campos de entrada, um botão, e uma opção para salvar o login.
+
+</details>
+
+<details>
+  <summary>Configuração da interface da tela de login</summary>
+    <img src="./assets/gui-login-api1.png" alt="Descrição da imagem">
+    Esse código cria uma interface gráfica simples para uma tela de login usando a biblioteca PySimpleGUI.
+    Define o tema visual da interface (LightGreen1) para determinar as cores e o estilo.
+    É montada uma estrutura que organiza os elementos visuais, como caixas de texto, campos de entrada, um botão, e uma opção para salvar o login.
+
+</details>
+
+<details>
+  <summary>Configuração da lógica da tela de login</summary>
+    <img src="./assets/logica-login-api1.png" alt="Descrição da imagem">
+    Esse código adiciona a lógica funcional à interface de login criada no tópico anterior. Ele fica em um loop contínuo, aguardando interações do usuário com a janela.
+</details>
+
+
+
+#### Hard Skills
+
+- **Python** : Sei fazer com autonomia
+- **Notion** : Sei fazer com autonomia
+
+
+#### Soft Skills
+
+**Comunicação**: Exercitei minhas habilidades de comunicação ao interagir frequentemente com a equipe, transmitindo a visão do cliente e alinhando expectativas. Mantive um diálogo aberto e constante com o cliente para entender suas necessidades e garantir que as funcionalidades desenvolvidas atendessem às suas expectativas.
+
+**Autodidatismo** : Demonstrei proatividade ao buscar e adquirir conhecimentos sobre tecnologias novas, como Spring Boot, que não tinha familiaridade anteriormente. 
+
+**Trabalho sob pressão**: Em momentos de baixa de recursos no time, assumi mais responsabilidades do que o habitual para garantir que o projeto fosse entregue dentro do prazo estabelecido. 
+
 
 
 ### Em 2026-1
