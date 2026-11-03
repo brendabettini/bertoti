@@ -15,10 +15,10 @@
 
 ## Sobre Mim
 
-Sou desenvolvedora fullstack na IACIT, onde atuo no departamento de Engenharia e Pesquisa. Sou formada como Técnica em Informática e curso Banco de Dados na FATEC de São José dos Campos.
+Sou desenvolvedora fullstack na IACIT, onde atuo no departamento de Engenharia e Pesquisa. Sou formada como Técnica em Informática e curso Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
 
 - **Atuação:** Desenvolvedora fullstack no departamento de Engenharia e Pesquisa da IACIT.
-- **Formação:** Técnica em Informática e cursando **Banco de Dados** na FATEC São José dos Campos.
+- **Formação:** Técnica em Informática e cursando **Banco de Dados** na FATEC São José dos Campos - Prof. Jessen Vidal.
 - **Conhecimentos:** Desenvolvimento backend e frontend, bancos de dados relacionais e não relacionais e tecnologias de geoprocessamento.
 
 <br><hr><br>
@@ -107,7 +107,9 @@ Atuei como **desenvolvedora** no projeto, com as seguintes entregas:
 
 ##### O que gostaria de desenvolver
 
-[PREENCHER: tecnologias que você quer aprofundar e por quê]
+**Spring Security**: Quero aprofundar autenticação e autorização (roles e JWT), pois a proteção de endpoints e o controle de acesso por perfil de usuário são essenciais em sistemas que lidam com dados de clientes reais, como o do IPEM.
+
+**Microsserviços**: Tenho interesse em entender como dividir uma aplicação em serviços independentes que se comunicam por APIs, já que o uso de serviços externos no projeto mostrou a importância de separar responsabilidades e isolar dependências.
 
 #### Soft Skills
 
@@ -121,13 +123,21 @@ Atuei como **desenvolvedora** no projeto, com as seguintes entregas:
 
 ##### O que gostaria de desenvolver
 
-[PREENCHER: habilidades que você quer aprimorar e por quê]
+**Comunicação em Público**: Quero ganhar mais confiança ao apresentar, especialmente ao explicar conteúdo técnico de forma simples e objetiva para clientes e avaliadores.
+
+**Liderança e Gestão de Equipes**: Quero melhorar a distribuição de atividades, o acompanhamento das tarefas e a forma de dar feedback para apoiar colegas com dificuldades.
+
+**Gestão de Projetos**: Quero aprofundar metodologias ágeis e técnicas de gestão de riscos e prioridades, para planejar melhor as entregas e antecipar problemas.
+
+**Tomada de Decisão**: Quero desenvolver uma tomada de decisão mais embasada em dados e na análise de impacto, principalmente em cenários com prazos curtos.
+
+**Inglês Profissional**: Grande parte da documentação técnica está em inglês, e quero aprimorar vocabulário técnico e conversação para atuar com mais segurança em reuniões e ambientes profissionais.
 
 <br><hr><br>
 
 ## Experiência Profissional
 
-**IACIT | Desenvolvedora Fullstack** *([PREENCHER: mês/ano de início] – Atualmente)*
+**IACIT | Desenvolvedora Fullstack** *(Setembro/2025 – Atualmente)*
 > Desenvolvimento fullstack no departamento de Engenharia e Pesquisa.
 
 <br><hr><br>
@@ -138,7 +148,7 @@ Atuei como **desenvolvedora** no projeto, com as seguintes entregas:
   <summary><b>Ver Histórico</b></summary>
   <br>
   <ul>
-    <li><b>FATEC São José dos Campos:</b> Superior em Banco de Dados (Cursando).</li>
+    <li><b>FATEC São José dos Campos - Prof. Jessen Vidal:</b> Superior em Banco de Dados (Cursando).</li>
     <li><b>Técnico em Informática:</b> Formação concluída.</li>
   </ul>
 </details>
