@@ -1,5 +1,5 @@
 <div align="center">
-  <strong>[imagem: sua foto de perfil]</strong>
+  <strong>[imagem: foto de perfil]</strong>
 
   <h1>Brenda Bettini de Matos</h1>
   
